@@ -2,12 +2,13 @@
  * Plugin Name: Booka Calendar Shortcode
  * Plugin URI:  https://github.com/pkollitsch/dnb-booka-calendar
  * Description: WordPress plugin to load a calendar containing tours from Booka
- * Version: 2.0.28
+ * Version:     11.11.29
  * Author: Patrick Kollitsch
  * Author URI:  http://davids-neighbour.com
  * License:     GPL-3.0
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
+
 jQuery(document).ready(function ($) {
     window.mobilecheck = function () {
         var check = false;
