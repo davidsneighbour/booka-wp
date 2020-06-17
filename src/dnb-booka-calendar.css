@@ -1,0 +1,30 @@
+/**
+ * Plugin Name: Booka Calendar Shortcode
+ * Plugin URI: https://davids-neighbour.com
+ * Description: WordPress plugin to load a calendar containing tours from Booka
+ * Version:     11.11.29
+ * Author: Patrick Kollitsch
+ * Author URI: https://davids-neighbour.com
+ * License: GPL-3.0
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+.fc-event {
+    padding: 5px 10px !important;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.fc-left h2 {
+    font-size: 2rem !important;
+}
+
+.fc-right .btn {
+    border-radius: 0 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.fc-day-grid-event .fc-content {
+    white-space: normal !important;
+}

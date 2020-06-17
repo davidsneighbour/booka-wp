@@ -1,0 +1,14 @@
+{
+    "name": "davidsneighbour/booka-wp",
+    "description": "WordPress plugin to display a tour calendar from BooKa",
+    "type": "project",
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "^4.9"
+    },
+    "authors": [
+        {
+            "name": "Patrick Kollitsch",
+            "email": "patrick@davids-neighbour.com"
+        }
+    ]
+}
