@@ -4,7 +4,10 @@
   "description": "dnb-booka-calendar ==================",
   "main": "booka-calendar.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version --release-as patch -t",
+    "release-next": "standard-version -t",
+    "release-major": "standard-version --release-as major -t"
   },
   "config": {
     "commitizen": {
@@ -24,6 +27,72 @@
   "devDependencies": {
     "cz-conventional-changelog": "^3.2.0",
     "cz-customizable": "^6.2.0",
-    "cz-customizable-ghooks": "^1.5.0"
+    "cz-customizable-ghooks": "^1.5.0",
+    "standard-version": "^8.0.0"
+  },
+  "standard-version": {
+    "release": "standard-version --release-as patch --sign --commit-all -t",
+    "release-next": "standard-version --sign --commit-all -t",
+    "release-major": "standard-version --release-as major --sign --commit-all -t",
+    "header": "",
+    "types": [
+      {
+        "value": "feat",
+        "section": "Feature:"
+      },
+      {
+        "value": "fix",
+        "section": "Bugfix:"
+      },
+      {
+        "value": "theme",
+        "section": "Theme:"
+      },
+      {
+        "value": "refactor",
+        "hidden": true
+      },
+      {
+        "value": "test",
+        "section": "Testing:"
+      },
+      {
+        "value": "chore",
+        "hidden": true
+      },
+      {
+        "value": "wip",
+        "hidden": true
+      }
+    ],
+    "scripts": {
+      "prerelease": "",
+      "prebump": "",
+      "postbump": "",
+      "prechangelog": "",
+      "postchangelog": "",
+      "precommit": "",
+      "postcommit": "",
+      "pretag": "",
+      "posttag": "git push --follow-tags origin master"
+    },
+    "bumpFiles": [
+      {
+        "filename": ".version",
+        "type": "plain-text"
+      },
+      {
+        "filename": "composer.json",
+        "type": "json"
+      },
+      {
+        "filename": "package.json",
+        "type": "json"
+      },
+      {
+        "filename": "package-lock.json",
+        "type": "json"
+      }
+    ]
   }
 }
