@@ -10,5 +10,8 @@
             "name": "Patrick Kollitsch",
             "email": "patrick@davids-neighbour.com"
         }
-    ]
+    ],
+    "config": {
+        "vendor-dir": "src/vendor"
+    }
 }
