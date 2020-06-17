@@ -1,0 +1,29 @@
+{
+  "name": "booka-wp",
+  "version": "1.0.0",
+  "description": "dnb-booka-calendar ==================",
+  "main": "booka-calendar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsneighbour/booka-wp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidsneighbour/booka-wp/issues"
+  },
+  "homepage": "https://github.com/davidsneighbour/booka-wp#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
+    "cz-customizable": "^6.2.0",
+    "cz-customizable-ghooks": "^1.5.0"
+  }
+}
