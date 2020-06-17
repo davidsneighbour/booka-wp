@@ -13,5 +13,6 @@
     ],
     "config": {
         "vendor-dir": "src/vendor"
-    }
+    },
+    "version": "1.0.1"
 }
